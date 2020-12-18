@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name":"Slayer",
+        "genre": "Thrash Metal",
+        "country" : "United States",
+        "formedIn" : 1987
+    },
+    {
+        "id": 2,
+        "name":"Alienz",
+        "genre": "Progressive Metal",
+        "country" : "Lebanon",
+        "formedIn" : 2003
+    },
+    {
+        "id": 3,
+        "name":"Anuryzm",
+        "genre": "Power/Progressive Metal",
+        "country" : "Japan",
+        "formedIn" : 1987
+    },
+    {
+        "id": 4,
+        "name":"Arcease",
+        "genre": "Doom/Death Metal",
+        "country" : "Beirut",
+        "formedIn" : 2004
+    },
+    {
+        "id": 5,
+        "name":"Ayat",
+        "genre": "Black Metal",
+        "country" : "Lebanon",
+        "formedIn" : 200
+    }
+]
