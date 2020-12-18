@@ -1,10 +1,14 @@
-const PORT = 8000;
+const port = process.env.PORT || 8000;
 
 const express = require('express');
 const app = express();
 const bands = require('./band.json');
 
 app.use(express.json());
+
+app.listen(port, () => {
+  console.log(`Server up and running on http://localhost:${port}`);
+});
 
 app.get('/bands', (req, res) => {
   // res.send("liste des groupes")
@@ -38,6 +42,3 @@ app.delete('/bands/:id', (req, res) => {
   res.status(200).json(band);
 });
 
-app.listen(PORT, () => {
-  console.log(`Server up and running on http://localhost:${PORT}`);
-});
