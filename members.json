@@ -1,0 +1,12 @@
+[
+    {
+        "id":1,
+        "band":"Slayer",
+        "bandId": 5,
+        "pseudo": "kerry king",
+        "realFullName": "Kerry Ray King",
+        "Age": 56,
+        "placeOfOrigin": "United States",
+        "Gender": "Male"
+    }
+]
