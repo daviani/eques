@@ -11,6 +11,21 @@ module.exports = {
       name: {
         type: Sequelize.STRING
       },
+      country_of_origin: {
+        type: Sequelize.STRING
+      },
+      genre: {
+        type: Sequelize.STRING
+      },
+      status: {
+        type: Sequelize.STRING
+      },
+      formed_in: {
+        type: Sequelize.DATE
+      },
+      describe: {
+        type: Sequelize.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

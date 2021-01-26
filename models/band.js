@@ -14,7 +14,12 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Band.init({
-    name: DataTypes.STRING
+    name: DataTypes.STRING,
+    country_of_origin: DataTypes.STRING,
+    genre: DataTypes.STRING,
+    status: DataTypes.STRING,
+    formed_in: DataTypes.DATE,
+    describe: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Band',
