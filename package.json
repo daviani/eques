@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "serve": "nodemon index.js"
+    "serve": "nodemon index.js",
+    "test": "mocha --recursive"
   },
   "dependencies": {
     "express": "^4.17.1",
