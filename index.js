@@ -10,6 +10,12 @@ app.listen(port, () => {
   console.log(`Server up and running on http://localhost:${port}`);
 });
 
+app.get('/', (req,res) =>
+    res.json({
+      message: 'Welcome to Equess app'
+    })
+)
+
 app.get('/bands', async (req, res) => {
   const Band = models['Band'];
   const bands = await Band.findAll();
