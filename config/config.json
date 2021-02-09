@@ -4,11 +4,8 @@
     "url": "postgres://admin:admin@localhost:5433/eques"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "sqlite",
+    "storage": "database.test.sqlite"
   },
   "production": {
     "username": "root",

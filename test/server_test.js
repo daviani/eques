@@ -16,3 +16,13 @@ describe('route /', function() {
   });
 });
 
+describe('route /bands', function() {
+  it('should return a list of band formated as json array', async () => {
+    //given
+
+    //when
+    const res = await request(server).get('/bands');
+    //then
+    expect(res.status).to.equal(200);
+  });
+});
